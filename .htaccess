@@ -1,0 +1,21 @@
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^([0-9a-zA-Z_-]+)$ index.php?SEG_ONE=$1 [L]
+RewriteRule ^([0-9a-zA-Z_-]+)/$ index.php?SEG_ONE=$1&SEG_TWO=$2 [L]
+RewriteRule ^([0-9a-zA-Z_-]+)?([0-9a-zA-Z_-]+)=$/ index.php?SEG_ONE=$1&SEG_TWO=$1 [L]
+
+
+# 
+
+#
+#RewriteRule ^([0-9a-zA-Z_-]+)/$ 1.php [L]
+#
+
+
+</IfModule>

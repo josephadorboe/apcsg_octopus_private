@@ -1,0 +1,113 @@
+change log 
+08 SEPT 2021 
+version 1.3.3
+
+
+30 AUG 2021 
+version 1.3.2
+1. Patient folder device history
+2. 
+
+
+
+15 JUNE 2021 
+version 1.1.8
+1. Pharmacy reverse send out in prescription details
+2. pharmacy prescription sent out page 
+3. fix pharamcy issue of double clicks 
+
+OCOPUS 1.0.9 
+17 MAR 2021
+- Added consultation table 
+
+octopus 1.0.8
+09 MAR 2021
+- Fix issue of credit request balanace when amount is adjuested 
+- Added balance , amount paid , amount used, and balance to admin manage credit page 
+- Added amount used balance to patient credit table 
+- Added Nurse Model
+- Added Nurse Controller 
+- add payament for partner companies
+- added payement for national insurance
+- added payment for private insurance 
+- added payment for cheques- added momo
+- added payment for cash
+- added payment for credit 
+- added shift tpes assign to the facility setup
+- addes default user on facility setup
+- 
+
+
+octopus 1.0.7
+3 MAR 2021
+- Fix cash scheme service request on registration 
+- Fix momo scheme on registration service request 
+- Fixed cashier issue 
+- Fixed cashier TILLS
+- Set cashier TILLS
+- Added cheques payment to patient payment scheme to registration service request
+- Added cheques payment to service request for all patients 
+- Rearrange Patient Transaction on cashier to latest on top 
+- Added banks to cashier cheques payments 
+- Add hospital admin to suspend a payment scheme
+- Added new folder as a service request for patient registration
+- Added new folder as a service request for service request 
+- Added the toggle to give ot not to give credit at the admin payment scheme 
+- added the manage credit menu under the admin
+- Added the credit request to cashier 
+- Added the approve or reject credit request to admin 
+
+
+
+octopus 1.6
+17 FEB 2021
+- ADD NURSE MENU
+- ADD PATIENT QUEUE
+- ADD VITALS TAKING 
+- ADD DOCTOR USER
+- ADD SPECIALIATION TO USERS
+- ADD PATIENT CONSULTATION LIST 
+
+
+
+octopus 1.5
+18 JAN 2021
+- RESOLVE ISSUE WITH SHIFT 
+- ADD ATTACH PATIENT LEGACY DOCUMENT ON PATIENT REGISTRATION
+- ADD LIST OF PATIENT WITH NO LEGACY DOCUMENT ATTACHED 
+- ATTACH LEGACY DOCUMENT AFTER REGISTRATION 
+- ADD PATIENT SEARCH FILTER BEFORE SERVICE REQUEST 
+- ADD BILLING USER
+- ADD SCHEME PATIENT SEARCH
+- ADD DOSAGE FORM TO HOSPITAL ADMIN
+- ADD UNITS 
+- ADD MEDICATION AND DEVICES 
+- ADD CASHIER 
+- ADD CASHIER TILLS
+- ADD PRINT RECIEPT
+
+
+
+1.4
+
+
+octopus 1.2
+06 Jan 2021
+- Patient registration 
+- Setup services 
+- Assign Services 
+- show services
+- Patient registration and service request 
+- Patient search
+- Patient groups 
+- manage records 
+
+
+octopus 1.1
+02 JAN 2021
+- Setup Users for developer and octopus manager
+- setup user from hospital admins
+- setup payment method 
+- Assign Payment method
+- payment partners
+- payment scheme
